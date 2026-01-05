@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1270px;
+    margin: auto;
+}
+
 nav {
     text-align: center;
     margin-top: 20px;
@@ -36,3 +41,17 @@ nav li:hover a {
 .footer {
     text-align: center;
 }
+
+.hero-container {
+    display: flex;
+    background-color: lightgreen;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container img {
+    height: 400px;
+    width: 100%;
+}
+
