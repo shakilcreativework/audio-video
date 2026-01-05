@@ -43,15 +43,19 @@ nav li:hover a {
 }
 
 .hero-container {
+    height: 400px;
     display: flex;
     background-color: lightgreen;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
+    border-radius: 25px;
 }
 
 .hero-container img {
     height: 400px;
     width: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
