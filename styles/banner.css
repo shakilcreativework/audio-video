@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    background: chocolate;
+    padding: 10px 20px;
+}
+
+nav li:hover {
+    background: #000;
+    transition: .3s;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover a {
+    transition: .3s;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+}
