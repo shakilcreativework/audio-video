@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha Ghar</title>
+
+    <style>
+        form .basic-info label {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,6 +19,50 @@
     <main>
         <section>
             <h2>Jamal Mother Pitha Ghar</h2>
+            <form>
+                <fieldset class="basic-info">
+                    <legend>Basic info</legend>
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" id="name">
+
+                    <label for="email">Your Email</label>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Pitha Info</legend>
+
+                    <input type="radio" name="pitha" id="chitoy">
+                    <label for="chitoy">Chitoy</label>
+
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">Vapa</label>
+
+                    <input type="radio" name="pitha" id="puri">
+                    <label for="puri">Dul Puri</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Vorta selection</legend>
+                    <input type="checkbox" name="" id="sorisa">
+                    <label for="sorisa">Sorisa</label>
+
+                    <input type="checkbox" name="" id="shutki">
+                    <label for="shutki">Shutki</label>
+                    <label for="sorisa">Sorisa</label>
+
+                    <input type="checkbox" name="" id="morich">
+                    <label for="morich">Morich</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Extra Info</legend>
+                    <textarea cols="40" rows="4" name="" id=""></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
         </section>
     </main>
     <footer>
