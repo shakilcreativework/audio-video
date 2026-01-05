@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav li a:hover {
+    color: red;
+    transition: .3s;
+}
